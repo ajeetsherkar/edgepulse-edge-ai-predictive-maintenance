@@ -1,3 +1,4 @@
 data/raw/
 *.zip
 *.rar
+.DS_Store
