@@ -13,9 +13,8 @@ st.subheader(
 )
 
 data = pd.read_csv(
-    "../data/processed/prediction_results.csv"
+    "data/processed/prediction_results.csv"
 )
-
 # ==================
 # KPI CARDS
 # ==================
