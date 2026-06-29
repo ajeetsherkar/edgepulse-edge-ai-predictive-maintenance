@@ -1,6 +1,48 @@
+import requests
 import streamlit as st
 import pandas as pd
 
+st.subheader("🔮 Live Prediction")
+
+mean = st.number_input("Mean", value=-0.09)
+std = st.number_input("Std", value=0.08)
+rms = st.number_input("RMS", value=0.12)
+max_v = st.number_input("Max", value=0.38)
+min_v = st.number_input("Min", value=-0.72)
+ptp = st.number_input("Peak to Peak", value=1.10)
+
+if st.button("Predict Health"):
+    
+    payload = {
+        "mean": mean,
+        "std": std,
+        "rms": rms,
+        "max": max_v,
+        "min": min_v,
+        "peak_to_peak": ptp
+    }
+
+    response = requests.post(
+        "http://127.0.0.1:8000/predict",
+        json=payload
+    )
+
+    result = response.json()
+
+    st.success(
+        f"Prediction: {result['prediction']}"
+    )
+
+    st.metric(
+        "Confidence",
+        f"{result['confidence']}%"
+    )
+
+    st.info(
+        f"Maintenance Action: {result['maintenance_action']}"
+    )
+
+    
 st.set_page_config(
     page_title="EdgePulse Dashboard",
     layout="wide"
