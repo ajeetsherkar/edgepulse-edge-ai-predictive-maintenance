@@ -44,12 +44,38 @@ if st.button("Predict Health"):
         "peak_to_peak": ptp
     }
 
-    response = requests.post(
-        "http://127.0.0.1:8000/predict",
-        json=payload
-    )
+    try:
+        response = requests.post(
+            "http://127.0.0.1:8000/predict",
+            json=payload
+        )
 
-    result = response.json()
+        result = response.json()
+
+        history_entry = pd.DataFrame([
+            {
+                "timestamp": datetime.now().strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                ),
+                "prediction": result["prediction"],
+                "confidence": result["confidence"],
+                "maintenance_action":
+                result["maintenance_action"]
+            }
+        ])
+
+        history_entry.to_csv(
+            "data/logs/prediction_history.csv",
+            mode="a",
+            header=False,
+            index=False
+        )
+
+    except:
+        st.error(
+            "FastAPI server is not running. Start the API first."
+        )
+        st.stop()
 
     st.success(
         f"Prediction: {result['prediction']}"
@@ -63,6 +89,36 @@ if st.button("Predict Health"):
     st.info(
         f"Maintenance Action: {result['maintenance_action']}"
     )
+
+    if result["prediction"] == "Healthy":
+        explanation = """
+        ✅ Low vibration energy detected.
+        ✅ Stable operating condition.
+        ✅ Machine is operating normally.
+        """
+
+    elif result["prediction"] == "Early_Degradation":
+        explanation = """
+        ⚠ RMS values indicate early wear.
+        ⚠ Slight vibration increase detected.
+        ⚠ Inspection is recommended.
+        """
+
+    elif result["prediction"] == "Critical":
+        explanation = """
+        🔥 High vibration levels detected.
+        🔥 Significant instability observed.
+        🔥 Maintenance should be scheduled immediately.
+        """
+
+    else:
+        explanation = """
+        🚨 Extremely abnormal vibration detected.
+        🚨 Potential bearing or shaft failure.
+        🚨 Immediate shutdown recommended.
+        """
+
+    st.warning(explanation)
 
     st.progress(int(result["confidence"]))
 
@@ -109,12 +165,19 @@ if uploaded_file is not None:
                 "peak_to_peak": float(row["peak_to_peak"])
             }
 
-            response = requests.post(
-                "http://127.0.0.1:8000/predict",
-                json=payload
-            )
+            try:
+                response = requests.post(
+                    "http://127.0.0.1:8000/predict",
+                    json=payload
+                )
 
-            result = response.json()
+                result = response.json()
+
+            except:
+                st.error(
+                    "FastAPI server is not running. Start the API first."
+                )
+                st.stop()
 
             results.append({
                 "prediction": result["prediction"],
@@ -382,6 +445,164 @@ try:
     )
 
     st.pyplot(fig3)
+
+    # ==========================
+    # FEATURE IMPORTANCE
+    # ==========================
+    st.subheader(
+        "Feature Importance"
+    )
+
+    importance_df = pd.read_csv(
+        "models/feature_importance.csv"
+    )
+
+    fig4, ax4 = plt.subplots(
+        figsize=(8,5)
+    )
+
+    ax4.barh(
+        importance_df["feature"],
+        importance_df["importance"]
+    )
+
+    ax4.set_xlabel(
+        "Importance Score"
+    )
+
+    ax4.set_ylabel(
+        "Feature"
+    )
+
+    st.pyplot(fig4)
+
+    # ==========================
+    # PREDICTION HISTORY
+    # ==========================
+    st.divider()
+
+    st.header("📜 Prediction History")
+
+    history_df = pd.read_csv(
+        "data/logs/prediction_history.csv"
+    )
+
+    st.subheader(
+        "Recent Predictions"
+    )
+
+    st.dataframe(
+        history_df.tail(10)
+    )
+
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric(
+        "Total Predictions",
+        len(history_df)
+    )
+
+    col2.metric(
+        "Most Common Prediction",
+        history_df["prediction"].mode()[0]
+    )
+
+    col3.metric(
+        "Average Confidence",
+        f"{round(history_df['confidence'].mean(),2)}%"
+    )
+
+    st.subheader(
+        "Prediction History Distribution"
+    )
+
+    fig5, ax5 = plt.subplots(
+        figsize=(8,5)
+    )
+
+    history_df["prediction"].value_counts().plot(
+        kind="bar",
+        ax=ax5
+    )
+
+    ax5.set_xlabel(
+        "Prediction Type"
+    )
+
+    ax5.set_ylabel(
+        "Count"
+    )
+
+    st.pyplot(fig5)
+
+    # ==========================
+    # PREDICTION TREND ANALYSIS
+    # ==========================
+    st.subheader(
+        "Prediction Trend Over Time"
+    )
+
+    trend_data = (
+        history_df["prediction"]
+        .value_counts()
+        .reset_index()
+    )
+
+    trend_data.columns = [
+        "prediction",
+        "count"
+    ]
+
+    fig6, ax6 = plt.subplots(
+        figsize=(8,5)
+    )
+
+    ax6.plot(
+        trend_data["prediction"],
+        trend_data["count"],
+        marker="o"
+    )
+
+    ax6.set_xlabel(
+        "Prediction Type"
+    )
+
+    ax6.set_ylabel(
+        "Occurrences"
+    )
+
+    st.pyplot(fig6)
+
+    st.subheader(
+        "Recent Critical Activity"
+    )
+
+    critical_count = len(
+        history_df[
+            history_df["prediction"] == "Critical"
+        ]
+    )
+
+    failure_count = len(
+        history_df[
+            history_df["prediction"] == "Imminent_Failure"
+        ]
+    )
+
+    if failure_count > 0:
+        st.error(
+            f"🚨 {failure_count} imminent failures detected in prediction history."
+        )
+
+    elif critical_count > 0:
+        st.warning(
+            f"⚠️ {critical_count} critical predictions detected recently."
+        )
+
+    else:
+        st.success(
+            "✅ No recent critical activity detected."
+        )
 
     # ==========================
     # ALERT TABLE

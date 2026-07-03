@@ -1,0 +1,33 @@
+timestamp,prediction,confidence,maintenance_action
+2026-07-03 14:13:19,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:13:20,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:13:24,Critical,74.2,Maintenance Within 7 Days
+2026-07-03 14:13:27,Critical,82.56,Maintenance Within 7 Days
+2026-07-03 14:13:31,Critical,82.56,Maintenance Within 7 Days
+2026-07-03 14:13:36,Critical,82.56,Maintenance Within 7 Days
+2026-07-03 14:14:13,Critical,82.56,Maintenance Within 7 Days
+2026-07-03 14:14:16,Critical,86.68,Maintenance Within 7 Days
+2026-07-03 14:14:20,Critical,87.18,Maintenance Within 7 Days
+2026-07-03 14:38:01,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:02,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:02,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:02,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:02,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:02,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:02,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:03,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:03,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:03,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:03,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:03,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:04,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:04,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:04,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:38:21,Critical,73.39,Maintenance Within 7 Days
+2026-07-03 14:43:29,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:43:29,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:43:30,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:43:30,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:43:30,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:43:30,Early_Degradation,54.01,Schedule Inspection
+2026-07-03 14:43:30,Early_Degradation,54.01,Schedule Inspection
