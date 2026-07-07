@@ -1,652 +1,148 @@
 import streamlit as st
 import pandas as pd
-import requests
-import matplotlib.pyplot as plt
-from datetime import datetime
-import os
+import joblib
+from pathlib import Path
+import plotly.express as px
+import plotly.graph_objects as go
 
-# ==========================
-# PAGE CONFIG
-# ==========================
+ROOT = Path(__file__).resolve().parents[1]
+MODEL_PATH = ROOT / "models" / "xgb_baseline.pkl"
+FEATURE_PATH = ROOT / "models" / "dashboard_feature_importance.csv"
+HEALTH_PATH = ROOT / "models" / "health_distribution.csv"
+METRICS_PATH = ROOT / "models" / "model_metrics.csv"
+HISTORY_PATH = ROOT / "data" / "logs" / "prediction_history.csv"
+
+model = joblib.load(MODEL_PATH)
+feature_df = pd.read_csv(FEATURE_PATH)
+health_df = pd.read_csv(HEALTH_PATH)
+metrics_df = pd.read_csv(METRICS_PATH)
+history_df = pd.read_csv(HISTORY_PATH)
+
 st.set_page_config(
-    page_title="EdgePulse Dashboard",
+    page_title="EdgePulse",
+    page_icon="⚙️",
     layout="wide"
 )
 
-# ==========================
-# TITLE
-# ==========================
 st.title("⚙️ EdgePulse")
-st.subheader(
-    "Edge-AI Predictive Maintenance Dashboard"
+st.subheader("AI-Based Predictive Maintenance Dashboard")
+st.markdown("---")
+
+st.sidebar.title("EdgePulse")
+st.sidebar.markdown("---")
+st.sidebar.success("XGBoost Model")
+st.sidebar.info("Industrial Rotating Machinery")
+st.sidebar.markdown("---")
+st.sidebar.write("Model Version")
+st.sidebar.write("v1.0")
+st.sidebar.write("Algorithm")
+st.sidebar.write("XGBoost")
+st.sidebar.write("Dataset")
+st.sidebar.write("NASA IMS Bearing Dataset")
+
+accuracy = metrics_df.loc[
+    metrics_df["Metric"] == "Accuracy",
+    "Value"
+].iloc[0]
+
+samples = len(history_df)
+features = len(feature_df)
+algorithm = "XGBoost"
+
+col1, col2, col3, col4 = st.columns(4)
+col1.metric(
+    label="Model Accuracy",
+    value=f"{accuracy*100:.1f}%"
+)
+col2.metric(
+    label="Predictions Logged",
+    value=samples
+)
+col3.metric(
+    label="Features Used",
+    value=features
+)
+col4.metric(
+    label="ML Algorithm",
+    value=algorithm
 )
 
-# ==========================
-# LIVE PREDICTION
-# ==========================
-st.header("🔮 Live Prediction")
-
-mean = st.number_input("Mean", value=-0.09)
-std = st.number_input("Std", value=0.08)
-rms = st.number_input("RMS", value=0.12)
-max_v = st.number_input("Max", value=0.38)
-min_v = st.number_input("Min", value=-0.72)
-ptp = st.number_input("Peak to Peak", value=1.10)
-
-if st.button("Predict Health"):
-
-    payload = {
-        "mean": mean,
-        "std": std,
-        "rms": rms,
-        "max": max_v,
-        "min": min_v,
-        "peak_to_peak": ptp
+st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("---")
+st.subheader("Machine Health Distribution")
+fig = px.bar(
+    health_df,
+    x="Health Stage",
+    y="Count",
+    color="Health Stage",
+    text="Count",
+    title="Bearing Health Stages"
+)
+fig.update_layout(
+    xaxis_title="Health Stage",
+    yaxis_title="Number of Samples",
+    height=500
+)
+st.plotly_chart(
+    fig,
+    use_container_width=True,
+    config={
+        "displayModeBar": False
     }
-
-    try:
-        response = requests.post(
-            "http://127.0.0.1:8000/predict",
-            json=payload
-        )
-
-        result = response.json()
-
-        history_entry = pd.DataFrame([
-            {
-                "timestamp": datetime.now().strftime(
-                    "%Y-%m-%d %H:%M:%S"
-                ),
-                "prediction": result["prediction"],
-                "confidence": result["confidence"],
-                "maintenance_action":
-                result["maintenance_action"]
-            }
-        ])
-
-        history_entry.to_csv(
-            "data/logs/prediction_history.csv",
-            mode="a",
-            header=False,
-            index=False
-        )
-
-    except:
-        st.error(
-            "FastAPI server is not running. Start the API first."
-        )
-        st.stop()
-
-    st.success(
-        f"Prediction: {result['prediction']}"
-    )
-
-    st.metric(
-        "Confidence",
-        f"{result['confidence']}%"
-    )
-
-    st.info(
-        f"Maintenance Action: {result['maintenance_action']}"
-    )
-
-    if result["prediction"] == "Healthy":
-        explanation = """
-        ✅ Low vibration energy detected.
-        ✅ Stable operating condition.
-        ✅ Machine is operating normally.
-        """
-
-    elif result["prediction"] == "Early_Degradation":
-        explanation = """
-        ⚠ RMS values indicate early wear.
-        ⚠ Slight vibration increase detected.
-        ⚠ Inspection is recommended.
-        """
-
-    elif result["prediction"] == "Critical":
-        explanation = """
-        🔥 High vibration levels detected.
-        🔥 Significant instability observed.
-        🔥 Maintenance should be scheduled immediately.
-        """
-
-    else:
-        explanation = """
-        🚨 Extremely abnormal vibration detected.
-        🚨 Potential bearing or shaft failure.
-        🚨 Immediate shutdown recommended.
-        """
-
-    st.warning(explanation)
-
-    st.progress(int(result["confidence"]))
-
-# ==========================
-# BATCH PREDICTION
-# ==========================
-st.divider()
-
-st.header("📂 Batch Prediction")
-
-uploaded_file = st.file_uploader(
-    "Upload CSV File",
-    type=["csv"]
 )
 
-if uploaded_file is not None:
-
-    df = pd.read_csv(uploaded_file)
-
-    st.subheader("Uploaded Data")
-    st.dataframe(df.head())
-
-    required_columns = [
-        "mean",
-        "std",
-        "rms",
-        "max",
-        "min",
-        "peak_to_peak"
-    ]
-
-    if all(col in df.columns for col in required_columns):
-
-        results = []
-
-        for _, row in df.iterrows():
-
-            payload = {
-                "mean": float(row["mean"]),
-                "std": float(row["std"]),
-                "rms": float(row["rms"]),
-                "max": float(row["max"]),
-                "min": float(row["min"]),
-                "peak_to_peak": float(row["peak_to_peak"])
-            }
-
-            try:
-                response = requests.post(
-                    "http://127.0.0.1:8000/predict",
-                    json=payload
-                )
-
-                result = response.json()
-
-            except:
-                st.error(
-                    "FastAPI server is not running. Start the API first."
-                )
-                st.stop()
-
-            results.append({
-                "prediction": result["prediction"],
-                "confidence": result["confidence"],
-                "maintenance_action":
-                result["maintenance_action"]
-            })
-
-        result_df = pd.concat(
-            [
-                df.reset_index(drop=True),
-                pd.DataFrame(results)
-            ],
-            axis=1
-        )
-
-        st.subheader(
-            "Prediction Results"
-        )
-
-        st.dataframe(result_df)
-
-        csv = result_df.to_csv(
-            index=False
-        )
-
-        st.download_button(
-            "⬇ Download Results CSV",
-            csv,
-            "prediction_results.csv",
-            "text/csv"
-        )
-
-        os.makedirs(
-            "data/processed",
-            exist_ok=True
-        )
-
-        result_df.to_csv(
-            "data/processed/prediction_results.csv",
-            index=False
-        )
-
-    else:
-        st.error(
-            f"CSV must contain columns: {required_columns}"
-        )
-
-
-# ==========================
-# DASHBOARD ANALYTICS
-# ==========================
-healthy = 0
-early = 0
-critical = 0
-failure = 0
-
-try:
-
-    data = pd.read_csv(
-        "data/processed/prediction_results.csv"
-    )
-
-    st.caption(
-        f"Last Updated: {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}"
-    )
-
-    selected_status = st.sidebar.multiselect(
-        "Filter by Health Status",
-        options=data["prediction"].unique(),
-        default=list(data["prediction"].unique())
-    )
-
-    filtered_data = data[
-        data["prediction"].isin(selected_status)
-    ]
-
-    total = len(filtered_data)
-
-    healthy = (
-        filtered_data["prediction"]
-        .eq("Healthy")
-        .sum()
-    )
-
-    early = (
-        filtered_data["prediction"]
-        .eq("Early_Degradation")
-        .sum()
-    )
-
-    critical = (
-        filtered_data["prediction"]
-        .eq("Critical")
-        .sum()
-    )
-
-    failure = (
-        filtered_data["prediction"]
-        .eq("Imminent_Failure")
-        .sum()
-    )
-
-    avg_conf = round(
-        filtered_data["confidence"].mean(),
-        2
-    )
-
-    st.divider()
-
-    st.header(
-        "📊 Dashboard Analytics"
-    )
-
-    c1, c2, c3, c4, c5 = st.columns(5)
-
-    c1.metric(
-        "Total",
-        total
-    )
-
-    c2.metric(
-        "Healthy",
-        healthy
-    )
-
-    c3.metric(
-        "Early",
-        early
-    )
-
-    c4.metric(
-        "Critical",
-        critical
-    )
-
-    c5.metric(
-        "Failure",
-        failure
-    )
-
-    if total > 0:
-        system_health = round(
-            healthy / total * 100,
-            2
-        )
-    else:
-        system_health = 0
-
-    st.metric(
-        "🏭 Overall Fleet Health",
-        f"{system_health}%"
-    )
-
-    if failure > 0:
-        st.error(
-            f"🚨 {failure} machines are in Imminent Failure state!"
-        )
-
-    elif critical > 0:
-        st.warning(
-            f"⚠️ {critical} machines require urgent maintenance."
-        )
-
-    else:
-        st.success(
-            "✅ All machines are operating normally."
-        )
-
-    st.write(
-        f"Average Confidence: {avg_conf}%"
-    )
-
-    st.subheader(
-        "Prediction Results"
-    )
-
-    def color_prediction(val):
-        if val == "Healthy":
-            return "background-color: lightgreen"
-        elif val == "Early_Degradation":
-            return "background-color: yellow"
-        elif val == "Critical":
-            return "background-color: orange"
-        elif val == "Imminent_Failure":
-            return "background-color: red"
-        return ""
-
-    st.dataframe(
-        filtered_data.style.applymap(
-            color_prediction,
-            subset=["prediction"]
-        )
-    )
-
-    # ==========================
-    # BAR CHART
-    # ==========================
-    st.subheader(
-        "Machine Health Distribution"
-    )
-
-    fig, ax = plt.subplots(
-        figsize=(8,5)
-    )
-
-    filtered_data["prediction"].value_counts().plot(
-        kind="bar",
-        ax=ax
-    )
-
-    ax.set_xlabel(
-        "Health Stage"
-    )
-
-    ax.set_ylabel(
-        "Count"
-    )
-
-    st.pyplot(fig)
-
-    # ==========================
-    # PIE CHART
-    # ==========================
-    st.subheader(
-        "Health Status Breakdown"
-    )
-
-    fig2, ax2 = plt.subplots(
-        figsize=(7,7)
-    )
-
-    filtered_data["prediction"].value_counts().plot(
-        kind="pie",
-        autopct="%1.1f%%",
-        ax=ax2
-    )
-
-    ax2.set_ylabel("")
-
-    st.pyplot(fig2)
-
-    # ==========================
-    # CONFIDENCE HISTOGRAM
-    # ==========================
-    st.subheader(
-        "Prediction Confidence Distribution"
-    )
-
-    fig3, ax3 = plt.subplots(
-        figsize=(10,5)
-    )
-
-    ax3.hist(
-        filtered_data["confidence"],
-        bins=10
-    )
-
-    ax3.set_xlabel(
-        "Confidence (%)"
-    )
-
-    ax3.set_ylabel(
-        "Machines"
-    )
-
-    st.pyplot(fig3)
-
-    # ==========================
-    # FEATURE IMPORTANCE
-    # ==========================
-    st.subheader(
-        "Feature Importance"
-    )
-
-    importance_df = pd.read_csv(
-        "models/feature_importance.csv"
-    )
-
-    fig4, ax4 = plt.subplots(
-        figsize=(8,5)
-    )
-
-    ax4.barh(
-        importance_df["feature"],
-        importance_df["importance"]
-    )
-
-    ax4.set_xlabel(
-        "Importance Score"
-    )
-
-    ax4.set_ylabel(
-        "Feature"
-    )
-
-    st.pyplot(fig4)
-
-    # ==========================
-    # PREDICTION HISTORY
-    # ==========================
-    st.divider()
-
-    st.header("📜 Prediction History")
-
-    history_df = pd.read_csv(
-        "data/logs/prediction_history.csv"
-    )
-
-    st.subheader(
-        "Recent Predictions"
-    )
-
-    st.dataframe(
-        history_df.tail(10)
-    )
-
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric(
-        "Total Predictions",
-        len(history_df)
-    )
-
-    col2.metric(
-        "Most Common Prediction",
-        history_df["prediction"].mode()[0]
-    )
-
-    col3.metric(
-        "Average Confidence",
-        f"{round(history_df['confidence'].mean(),2)}%"
-    )
-
-    st.subheader(
-        "Prediction History Distribution"
-    )
-
-    fig5, ax5 = plt.subplots(
-        figsize=(8,5)
-    )
-
-    history_df["prediction"].value_counts().plot(
-        kind="bar",
-        ax=ax5
-    )
-
-    ax5.set_xlabel(
-        "Prediction Type"
-    )
-
-    ax5.set_ylabel(
-        "Count"
-    )
-
-    st.pyplot(fig5)
-
-    # ==========================
-    # PREDICTION TREND ANALYSIS
-    # ==========================
-    st.subheader(
-        "Prediction Trend Over Time"
-    )
-
-    trend_data = (
-        history_df["prediction"]
-        .value_counts()
-        .reset_index()
-    )
-
-    trend_data.columns = [
+st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("---")
+st.subheader("Feature Importance")
+fig = px.bar(
+    feature_df,
+    x="importance",
+    y="feature",
+    orientation="h",
+    color="importance",
+    text="importance",
+    title="XGBoost Feature Importance"
+)
+fig.update_layout(
+    height=500,
+    yaxis=dict(categoryorder="total ascending")
+)
+st.plotly_chart(
+    fig,
+    use_container_width=True,
+    config={
+        "displayModeBar": False
+    }
+)
+
+st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("---")
+st.subheader("Recent Prediction History")
+display_df = history_df[
+    [
+        "timestamp",
         "prediction",
-        "count"
+        "confidence",
+        "maintenance_action"
     ]
+].copy()
+display_df.columns = [
+    "Timestamp",
+    "Prediction",
+    "Confidence (%)",
+    "Maintenance Action"
+]
+display_df["Prediction"] = (
+    display_df["Prediction"]
+    .str.replace("_", " ")
+)
+st.dataframe(
+    display_df.tail(10),
+    use_container_width=True,
+    hide_index=True
+)
 
-    fig6, ax6 = plt.subplots(
-        figsize=(8,5)
-    )
-
-    ax6.plot(
-        trend_data["prediction"],
-        trend_data["count"],
-        marker="o"
-    )
-
-    ax6.set_xlabel(
-        "Prediction Type"
-    )
-
-    ax6.set_ylabel(
-        "Occurrences"
-    )
-
-    st.pyplot(fig6)
-
-    st.subheader(
-        "Recent Critical Activity"
-    )
-
-    critical_count = len(
-        history_df[
-            history_df["prediction"] == "Critical"
-        ]
-    )
-
-    failure_count = len(
-        history_df[
-            history_df["prediction"] == "Imminent_Failure"
-        ]
-    )
-
-    if failure_count > 0:
-        st.error(
-            f"🚨 {failure_count} imminent failures detected in prediction history."
-        )
-
-    elif critical_count > 0:
-        st.warning(
-            f"⚠️ {critical_count} critical predictions detected recently."
-        )
-
-    else:
-        st.success(
-            "✅ No recent critical activity detected."
-        )
-
-    # ==========================
-    # ALERT TABLE
-    # ==========================
-    st.subheader(
-        "🚨 Machines Requiring Attention"
-    )
-
-    alerts = filtered_data[
-        filtered_data["prediction"] != "Healthy"
-    ]
-
-    if not alerts.empty:
-
-        alerts = alerts[
-            [
-                "file",
-                "prediction",
-                "confidence",
-                "maintenance_action"
-            ]
-        ]
-
-        alerts = alerts.sort_values(
-            by="confidence",
-            ascending=False
-        )
-
-        st.subheader(
-            "🔥 Top Risk Machines"
-        )
-
-        st.dataframe(
-            alerts.head(10)
-        )
-
-except Exception as e:
-    st.warning(
-        f"Analytics data unavailable: {e}"
-    )
-
-st.subheader("🛠 Maintenance Summary")
-
-st.write(f"🟢 Healthy Machines: {healthy}")
-st.write(f"🟡 Early Degradation: {early}")
-st.write(f"🟠 Critical Machines: {critical}")
-st.write(f"🔴 Imminent Failure: {failure}")
+st.markdown("---")
+st.caption(
+    "EdgePulse • AI-Based Predictive Maintenance System • Built with Streamlit + XGBoost"
+)

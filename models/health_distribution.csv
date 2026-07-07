@@ -1,0 +1,5 @@
+Health Stage,Count
+Healthy,50
+Early_Degradation,25
+Critical,15
+Imminent_Failure,10
