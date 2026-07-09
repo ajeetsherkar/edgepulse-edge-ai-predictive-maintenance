@@ -128,10 +128,90 @@ if uploaded_file is not None:
             for label in prediction_labels
         ]
 
+        prediction_df = uploaded_df.copy()
+        prediction_df["Prediction"] = prediction_labels
+        prediction_df["Confidence (%)"] = confidence_scores.round(2)
+        prediction_df["Maintenance"] = maintenance_actions
+
+        # Store results so they survive reruns (e.g. filter changes)
+        st.session_state["prediction_df"] = prediction_df
+        st.session_state["prediction_time"] = prediction_time
+        st.session_state["feature_count"] = len(feature_columns)
+
+        history_records = []
+
+        for i in range(len(prediction_df)):
+            history_records.append({
+                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "prediction": prediction_labels[i],
+                "confidence": round(confidence_scores[i], 2),
+                "maintenance_action": maintenance_actions[i]
+            })
+
+        history_new = pd.DataFrame(history_records)
+
+        history_df = pd.concat(
+            [history_df, history_new],
+            ignore_index=True
+        )
+
+        history_df.to_csv(
+            HISTORY_PATH,
+            index=False
+        )
+
+        st.success(
+            f"{len(history_new)} predictions saved to history."
+        )
+
+    if "prediction_df" in st.session_state:
+        prediction_df = st.session_state["prediction_df"]
+
+        st.markdown("---")
+        st.subheader("Filter Predictions")
+
+        selected_status = st.multiselect(
+            "Filter by Predicted Health Status",
+            options=[
+                "Healthy",
+                "Early_Degradation",
+                "Critical",
+                "Imminent_Failure"
+            ],
+            default=[
+                "Healthy",
+                "Early_Degradation",
+                "Critical",
+                "Imminent_Failure"
+            ]
+        )
+
+        filtered_results = prediction_df[
+            prediction_df["Prediction"].isin(selected_status)
+        ]
+
+        search_text = st.text_input(
+            "🔍 Search by Machine/File Name"
+        )
+
+        if search_text:
+            if "file" in filtered_results.columns:
+                filtered_results = filtered_results[
+                    filtered_results["file"].str.contains(
+                        search_text,
+                        case=False,
+                        na=False
+                    )
+                ]
+            else:
+                st.warning(
+                    "No 'file' column found in the uploaded data — search is unavailable for this dataset."
+                )
+
         st.markdown("---")
         st.subheader("Prediction Summary")
 
-        summary = pd.Series(prediction_labels).value_counts()
+        summary = filtered_results["Prediction"].value_counts()
 
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Healthy", summary.get("Healthy", 0))
@@ -139,37 +219,85 @@ if uploaded_file is not None:
         c3.metric("Critical", summary.get("Critical", 0))
         c4.metric("Imminent Failure", summary.get("Imminent_Failure", 0))
 
+        st.write(
+            f"Showing **{len(filtered_results)}** of **{len(prediction_df)}** machines"
+        )
+
+        st.markdown("---")
+        st.subheader("Sort Predictions")
+
+        sort_option = st.selectbox(
+            "Sort By",
+            [
+                "File Name",
+                "Confidence (High → Low)",
+                "Confidence (Low → High)",
+                "Prediction"
+            ]
+        )
+
+        if sort_option == "File Name":
+            if "file" in filtered_results.columns:
+                filtered_results = filtered_results.sort_values(
+                    "file",
+                    ascending=True
+                )
+            else:
+                st.warning(
+                    "No 'file' column found in the uploaded data — sorting by file name is unavailable for this dataset."
+                )
+        elif sort_option == "Confidence (High → Low)":
+            filtered_results = filtered_results.sort_values(
+                "Confidence (%)",
+                ascending=False
+            )
+        elif sort_option == "Confidence (Low → High)":
+            filtered_results = filtered_results.sort_values(
+                "Confidence (%)",
+                ascending=True
+            )
+        elif sort_option == "Prediction":
+            filtered_results = filtered_results.sort_values(
+                "Prediction",
+                ascending=True
+            )
+
         st.markdown("---")
         st.subheader("Prediction Results")
 
-        uploaded_df["Prediction"] = prediction_labels
-        uploaded_df["Confidence (%)"] = confidence_scores.round(2)
-        uploaded_df["Maintenance"] = maintenance_actions
+        if filtered_results.empty:
+            st.warning(
+                "No machines match the selected filters or search text. Try changing your filters."
+            )
+        else:
+            st.dataframe(
+                filtered_results,
+                use_container_width=True
+            )
 
-        prediction_df = uploaded_df
+        csv = filtered_results.to_csv(index=False)
 
-        st.dataframe(
-            prediction_df,
-            use_container_width=True
+        download_filename = (
+            f"prediction_results_"
+            f"{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
         )
 
-        csv = prediction_df.to_csv(index=False)
-
         st.download_button(
-            label="📥 Download Prediction Report",
+            label=f"📥 Download {len(filtered_results)} Predictions",
             data=csv,
-            file_name="prediction_results.csv",
-            mime="text/csv"
+            file_name=download_filename,
+            mime="text/csv",
+            disabled=filtered_results.empty
         )
 
         st.info(f"""
 Model : XGBoost
 
-Records Processed : {len(uploaded_df)}
+Records Processed : {len(prediction_df)}
 
-Features : {len(feature_columns)}
+Features : {st.session_state['feature_count']}
 
-Prediction Time : {prediction_time:.2f} sec
+Prediction Time : {st.session_state['prediction_time']:.2f} sec
 
 Prediction Completed Successfully
 """)
@@ -191,10 +319,10 @@ Prediction Completed Successfully
             "Imminent_Failure": "🔴"
         }
 
-        for i in range(min(len(uploaded_df), 10)):
-            prediction = uploaded_df.loc[i, "Prediction"]
-            confidence = uploaded_df.loc[i, "Confidence (%)"]
-            maintenance = uploaded_df.loc[i, "Maintenance"]
+        for i in range(min(len(filtered_results), 10)):
+            prediction = filtered_results.iloc[i]["Prediction"]
+            confidence = filtered_results.iloc[i]["Confidence (%)"]
+            maintenance = filtered_results.iloc[i]["Maintenance"]
 
             st.markdown(
                 f"""
@@ -218,30 +346,48 @@ margin-bottom:15px;
                 unsafe_allow_html=True
             )
 
-        history_records = []
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("---")
+        st.subheader("Machine Health Distribution")
 
-        for i in range(len(uploaded_df)):
-            history_records.append({
-                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                "prediction": prediction_labels[i],
-                "confidence": round(confidence_scores[i], 2),
-                "maintenance_action": maintenance_actions[i]
-            })
+        stage_order = [
+            "Healthy",
+            "Early_Degradation",
+            "Critical",
+            "Imminent_Failure"
+        ]
 
-        history_new = pd.DataFrame(history_records)
-
-        history_df = pd.concat(
-            [history_df, history_new],
-            ignore_index=True
+        health_distribution = (
+            filtered_results["Prediction"]
+            .value_counts()
+            .reindex(stage_order, fill_value=0)
+            .reset_index()
+        )
+        health_distribution.columns = ["Health Stage", "Count"]
+        health_distribution["Health Stage"] = (
+            health_distribution["Health Stage"]
+            .str.replace("_", " ")
         )
 
-        history_df.to_csv(
-            HISTORY_PATH,
-            index=False
+        fig = px.bar(
+            health_distribution,
+            x="Health Stage",
+            y="Count",
+            color="Health Stage",
+            text="Count",
+            title="Bearing Health Stages (Filtered Predictions)"
         )
-
-        st.success(
-            f"{len(history_new)} predictions saved to history."
+        fig.update_layout(
+            xaxis_title="Health Stage",
+            yaxis_title="Number of Samples",
+            height=500
+        )
+        st.plotly_chart(
+            fig,
+            use_container_width=True,
+            config={
+                "displayModeBar": False
+            }
         )
 
 accuracy = metrics_df.loc[
@@ -271,29 +417,30 @@ col4.metric(
     value=algorithm
 )
 
-st.markdown("<br>", unsafe_allow_html=True)
-st.markdown("---")
-st.subheader("Machine Health Distribution")
-fig = px.bar(
-    health_df,
-    x="Health Stage",
-    y="Count",
-    color="Health Stage",
-    text="Count",
-    title="Bearing Health Stages"
-)
-fig.update_layout(
-    xaxis_title="Health Stage",
-    yaxis_title="Number of Samples",
-    height=500
-)
-st.plotly_chart(
-    fig,
-    use_container_width=True,
-    config={
-        "displayModeBar": False
-    }
-)
+if "prediction_df" not in st.session_state:
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("---")
+    st.subheader("Machine Health Distribution")
+    fig = px.bar(
+        health_df,
+        x="Health Stage",
+        y="Count",
+        color="Health Stage",
+        text="Count",
+        title="Bearing Health Stages (Sample Data)"
+    )
+    fig.update_layout(
+        xaxis_title="Health Stage",
+        yaxis_title="Number of Samples",
+        height=500
+    )
+    st.plotly_chart(
+        fig,
+        use_container_width=True,
+        config={
+            "displayModeBar": False
+        }
+    )
 
 st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("---")

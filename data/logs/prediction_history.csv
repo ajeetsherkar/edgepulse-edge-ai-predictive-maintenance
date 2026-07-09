@@ -1232,26 +1232,26 @@ timestamp,prediction,confidence,maintenance_action
 2026-07-08 15:48:42,Imminent_Failure,90.25,Immediate Shutdown
 2026-07-08 15:48:42,Imminent_Failure,93.20999908447266,Immediate Shutdown
 2026-07-08 15:48:56,Critical,93.5199966430664,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,95.69000244140625,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,99.55000305175781,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,99.5500030517578,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,99.2300033569336,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,97.54000091552734,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,99.30000305175781,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,99.3000030517578,Maintenance Within 7 Days
 2026-07-08 15:48:56,Early_Degradation,57.959999084472656,Schedule Inspection
 2026-07-08 15:48:56,Critical,99.61000061035156,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,84.16999816894531,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,94.66999816894531,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,94.66999816894533,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,97.63999938964844,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,94.13999938964844,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,85.87999725341797,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,96.91000366210938,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,96.08000183105469,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,90.58000183105469,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,98.98999786376953,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,98.98999786376952,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,83.87000274658203,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,99.0999984741211,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,98.33000183105469,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,96.55999755859375,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,96.55999755859376,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,96.54000091552734,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,92.08999633789062,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,92.52999877929688,Maintenance Within 7 Days
@@ -1262,25 +1262,25 @@ timestamp,prediction,confidence,maintenance_action
 2026-07-08 15:48:56,Critical,87.43000030517578,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,97.70999908447266,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,97.75,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,98.58000183105469,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,98.58000183105467,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,97.91000366210938,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,96.04000091552734,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,99.33000183105469,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,96.12999725341797,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,96.12999725341795,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,98.83999633789062,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,96.19999694824219,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,96.1999969482422,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,54.06999969482422,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,98.2300033569336,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,99.44999694824219,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,99.4499969482422,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,96.70999908447266,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,91.80999755859375,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,99.55999755859375,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,99.55999755859376,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,94.33999633789062,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,89.26000213623047,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,82.77999877929688,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,89.26000213623047,Maintenance Within 7 Days
 2026-07-08 15:48:56,Critical,97.81999969482422,Maintenance Within 7 Days
-2026-07-08 15:48:56,Critical,92.08000183105469,Maintenance Within 7 Days
+2026-07-08 15:48:56,Critical,92.08000183105467,Maintenance Within 7 Days
 2026-07-08 15:48:56,Early_Degradation,93.29000091552734,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,88.31999969482422,Schedule Inspection
 2026-07-08 15:48:56,Critical,98.81999969482422,Maintenance Within 7 Days
@@ -1291,17 +1291,17 @@ timestamp,prediction,confidence,maintenance_action
 2026-07-08 15:48:56,Critical,95.95999908447266,Maintenance Within 7 Days
 2026-07-08 15:48:56,Early_Degradation,84.16999816894531,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,81.5999984741211,Schedule Inspection
-2026-07-08 15:48:56,Early_Degradation,93.26000213623047,Schedule Inspection
+2026-07-08 15:48:56,Early_Degradation,93.26000213623048,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,79.94999694824219,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,82.36000061035156,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,79.68000030517578,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,85.66000366210938,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,80.45999908447266,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,96.08999633789062,Schedule Inspection
-2026-07-08 15:48:56,Early_Degradation,90.30000305175781,Schedule Inspection
+2026-07-08 15:48:56,Early_Degradation,90.3000030517578,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,84.7699966430664,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,95.95999908447266,Schedule Inspection
-2026-07-08 15:48:56,Healthy,57.849998474121094,No Action Required
+2026-07-08 15:48:56,Healthy,57.84999847412109,No Action Required
 2026-07-08 15:48:56,Early_Degradation,73.66999816894531,Schedule Inspection
 2026-07-08 15:48:56,Early_Degradation,85.27999877929688,Schedule Inspection
 2026-07-08 15:48:56,Healthy,64.4800033569336,No Action Required
@@ -1311,15 +1311,15 @@ timestamp,prediction,confidence,maintenance_action
 2026-07-08 15:48:56,Healthy,89.9000015258789,No Action Required
 2026-07-08 15:48:56,Early_Degradation,92.31999969482422,Schedule Inspection
 2026-07-08 15:48:56,Healthy,90.7300033569336,No Action Required
-2026-07-08 15:48:56,Healthy,96.66999816894531,No Action Required
-2026-07-08 15:48:56,Healthy,57.599998474121094,No Action Required
-2026-07-08 15:48:56,Healthy,91.37000274658203,No Action Required
-2026-07-08 15:48:56,Healthy,96.23999786376953,No Action Required
+2026-07-08 15:48:56,Healthy,96.66999816894533,No Action Required
+2026-07-08 15:48:56,Healthy,57.59999847412109,No Action Required
+2026-07-08 15:48:56,Healthy,91.37000274658205,No Action Required
+2026-07-08 15:48:56,Healthy,96.23999786376952,No Action Required
 2026-07-08 15:48:56,Healthy,83.61000061035156,No Action Required
 2026-07-08 15:48:56,Healthy,98.25,No Action Required
-2026-07-08 15:48:56,Healthy,90.33000183105469,No Action Required
-2026-07-08 15:48:56,Healthy,46.599998474121094,No Action Required
-2026-07-08 15:48:56,Healthy,95.19999694824219,No Action Required
+2026-07-08 15:48:56,Healthy,90.33000183105467,No Action Required
+2026-07-08 15:48:56,Healthy,46.59999847412109,No Action Required
+2026-07-08 15:48:56,Healthy,95.1999969482422,No Action Required
 2026-07-08 15:48:56,Healthy,98.0199966430664,No Action Required
 2026-07-08 15:48:56,Healthy,87.19000244140625,No Action Required
 2026-07-08 15:48:56,Imminent_Failure,84.08999633789062,Immediate Shutdown
@@ -1331,3 +1331,2503 @@ timestamp,prediction,confidence,maintenance_action
 2026-07-08 15:48:56,Imminent_Failure,84.61000061035156,Immediate Shutdown
 2026-07-08 15:48:56,Imminent_Failure,90.25,Immediate Shutdown
 2026-07-08 15:48:56,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:27:24,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:24,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:27:24,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:24,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:24,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:27:24,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:24,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:27:24,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:24,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:27:24,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:27:24,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:27:24,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:27:24,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:27:24,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:27:24,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:27:24,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:27:24,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:27:24,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:27:24,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:27:24,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:27:24,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:27:24,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:27:24,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:27:24,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:27:24,Healthy,98.25,No Action Required
+2026-07-09 16:27:24,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:27:24,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:27:24,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:27:24,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:27:24,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:27:24,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:27:24,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:27:41,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:41,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:27:41,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:41,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:41,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:27:41,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:41,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:27:41,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:41,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:27:41,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:27:41,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:27:41,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:27:41,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:27:41,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:27:41,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:27:41,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:27:41,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:27:41,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:27:41,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:27:41,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:27:41,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:27:41,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:27:41,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:27:41,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:27:41,Healthy,98.25,No Action Required
+2026-07-09 16:27:41,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:27:41,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:27:41,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:27:41,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:27:41,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:27:41,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:27:41,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:27:49,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:49,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:27:49,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:49,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:49,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:27:49,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:49,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:27:49,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:49,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:27:49,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:27:49,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:27:49,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:27:49,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:27:49,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:27:49,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:27:49,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:27:49,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:27:49,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:27:49,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:27:49,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:27:49,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:27:49,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:27:49,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:27:49,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:27:49,Healthy,98.25,No Action Required
+2026-07-09 16:27:49,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:27:49,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:27:49,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:27:49,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:27:49,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:27:49,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:27:49,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:27:55,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:55,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:27:55,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:55,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:27:55,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:27:55,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:27:55,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:27:55,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:27:55,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:27:55,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:27:55,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:27:55,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:27:55,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:27:55,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:27:55,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:27:55,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:27:55,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:27:55,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:27:55,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:27:55,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:27:55,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:27:55,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:27:55,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:27:55,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:27:55,Healthy,98.25,No Action Required
+2026-07-09 16:27:55,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:27:55,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:27:55,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:27:55,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:27:55,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:27:55,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:27:55,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:29:11,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:29:11,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:29:11,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:29:11,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:29:11,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:29:11,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:29:11,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:29:11,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:29:11,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:29:11,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:29:11,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:29:11,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:29:11,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:29:11,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:29:11,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:29:11,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:29:11,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:29:11,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:29:11,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:29:11,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:29:11,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:29:11,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:29:11,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:29:11,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:29:11,Healthy,98.25,No Action Required
+2026-07-09 16:29:11,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:29:11,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:29:11,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:29:11,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:29:11,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:29:11,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:29:11,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:33:18,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:33:18,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:33:18,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:18,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:18,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:33:18,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:18,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:33:18,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:18,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:33:18,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:33:18,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:33:18,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:33:18,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:33:18,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:33:18,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:33:18,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:33:18,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:33:18,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:33:18,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:33:18,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:33:18,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:33:18,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:33:18,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:33:18,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:33:18,Healthy,98.25,No Action Required
+2026-07-09 16:33:18,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:33:18,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:33:18,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:33:18,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:33:18,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:33:18,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:33:18,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:33:56,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:33:56,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:33:56,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:56,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:33:56,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:33:56,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:33:56,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:33:56,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:33:56,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:33:56,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:33:56,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:33:56,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:33:56,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:33:56,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:33:56,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:33:56,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:33:56,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:33:56,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:33:56,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:33:56,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:33:56,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:33:56,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:33:56,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:33:56,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:33:56,Healthy,98.25,No Action Required
+2026-07-09 16:33:56,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:33:56,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:33:56,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:33:56,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:33:56,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:33:56,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:33:56,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 16:34:03,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 16:34:03,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 16:34:03,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:34:03,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 16:34:03,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 16:34:03,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 16:34:03,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 16:34:03,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 16:34:03,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 16:34:03,Healthy,57.84999847412109,No Action Required
+2026-07-09 16:34:03,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 16:34:03,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 16:34:03,Healthy,64.4800033569336,No Action Required
+2026-07-09 16:34:03,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 16:34:03,Healthy,94.56999969482422,No Action Required
+2026-07-09 16:34:03,Healthy,88.62999725341797,No Action Required
+2026-07-09 16:34:03,Healthy,89.9000015258789,No Action Required
+2026-07-09 16:34:03,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 16:34:03,Healthy,90.7300033569336,No Action Required
+2026-07-09 16:34:03,Healthy,96.66999816894533,No Action Required
+2026-07-09 16:34:03,Healthy,57.59999847412109,No Action Required
+2026-07-09 16:34:03,Healthy,91.37000274658205,No Action Required
+2026-07-09 16:34:03,Healthy,96.23999786376952,No Action Required
+2026-07-09 16:34:03,Healthy,83.61000061035156,No Action Required
+2026-07-09 16:34:03,Healthy,98.25,No Action Required
+2026-07-09 16:34:03,Healthy,90.33000183105467,No Action Required
+2026-07-09 16:34:03,Healthy,46.59999847412109,No Action Required
+2026-07-09 16:34:03,Healthy,95.1999969482422,No Action Required
+2026-07-09 16:34:03,Healthy,98.0199966430664,No Action Required
+2026-07-09 16:34:03,Healthy,87.19000244140625,No Action Required
+2026-07-09 16:34:03,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 16:34:03,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 21:50:33,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 21:50:33,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 21:50:33,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:33,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:33,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 21:50:33,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:33,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 21:50:33,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:33,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 21:50:33,Healthy,57.84999847412109,No Action Required
+2026-07-09 21:50:33,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 21:50:33,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 21:50:33,Healthy,64.4800033569336,No Action Required
+2026-07-09 21:50:33,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 21:50:33,Healthy,94.56999969482422,No Action Required
+2026-07-09 21:50:33,Healthy,88.62999725341797,No Action Required
+2026-07-09 21:50:33,Healthy,89.9000015258789,No Action Required
+2026-07-09 21:50:33,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 21:50:33,Healthy,90.7300033569336,No Action Required
+2026-07-09 21:50:33,Healthy,96.66999816894533,No Action Required
+2026-07-09 21:50:33,Healthy,57.59999847412109,No Action Required
+2026-07-09 21:50:33,Healthy,91.37000274658205,No Action Required
+2026-07-09 21:50:33,Healthy,96.23999786376952,No Action Required
+2026-07-09 21:50:33,Healthy,83.61000061035156,No Action Required
+2026-07-09 21:50:33,Healthy,98.25,No Action Required
+2026-07-09 21:50:33,Healthy,90.33000183105467,No Action Required
+2026-07-09 21:50:33,Healthy,46.59999847412109,No Action Required
+2026-07-09 21:50:33,Healthy,95.1999969482422,No Action Required
+2026-07-09 21:50:33,Healthy,98.0199966430664,No Action Required
+2026-07-09 21:50:33,Healthy,87.19000244140625,No Action Required
+2026-07-09 21:50:33,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 21:50:33,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 21:50:48,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 21:50:48,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 21:50:48,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:48,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 21:50:48,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 21:50:48,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 21:50:48,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 21:50:48,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 21:50:48,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 21:50:48,Healthy,57.84999847412109,No Action Required
+2026-07-09 21:50:48,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 21:50:48,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 21:50:48,Healthy,64.4800033569336,No Action Required
+2026-07-09 21:50:48,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 21:50:48,Healthy,94.56999969482422,No Action Required
+2026-07-09 21:50:48,Healthy,88.62999725341797,No Action Required
+2026-07-09 21:50:48,Healthy,89.9000015258789,No Action Required
+2026-07-09 21:50:48,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 21:50:48,Healthy,90.7300033569336,No Action Required
+2026-07-09 21:50:48,Healthy,96.66999816894533,No Action Required
+2026-07-09 21:50:48,Healthy,57.59999847412109,No Action Required
+2026-07-09 21:50:48,Healthy,91.37000274658205,No Action Required
+2026-07-09 21:50:48,Healthy,96.23999786376952,No Action Required
+2026-07-09 21:50:48,Healthy,83.61000061035156,No Action Required
+2026-07-09 21:50:48,Healthy,98.25,No Action Required
+2026-07-09 21:50:48,Healthy,90.33000183105467,No Action Required
+2026-07-09 21:50:48,Healthy,46.59999847412109,No Action Required
+2026-07-09 21:50:48,Healthy,95.1999969482422,No Action Required
+2026-07-09 21:50:48,Healthy,98.0199966430664,No Action Required
+2026-07-09 21:50:48,Healthy,87.19000244140625,No Action Required
+2026-07-09 21:50:48,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 21:50:48,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 21:54:05,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 21:54:05,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 21:54:05,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 21:54:05,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 21:54:05,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 21:54:05,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 21:54:05,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 21:54:05,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 21:54:05,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 21:54:05,Healthy,57.84999847412109,No Action Required
+2026-07-09 21:54:05,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 21:54:05,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 21:54:05,Healthy,64.4800033569336,No Action Required
+2026-07-09 21:54:05,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 21:54:05,Healthy,94.56999969482422,No Action Required
+2026-07-09 21:54:05,Healthy,88.62999725341797,No Action Required
+2026-07-09 21:54:05,Healthy,89.9000015258789,No Action Required
+2026-07-09 21:54:05,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 21:54:05,Healthy,90.7300033569336,No Action Required
+2026-07-09 21:54:05,Healthy,96.66999816894533,No Action Required
+2026-07-09 21:54:05,Healthy,57.59999847412109,No Action Required
+2026-07-09 21:54:05,Healthy,91.37000274658205,No Action Required
+2026-07-09 21:54:05,Healthy,96.23999786376952,No Action Required
+2026-07-09 21:54:05,Healthy,83.61000061035156,No Action Required
+2026-07-09 21:54:05,Healthy,98.25,No Action Required
+2026-07-09 21:54:05,Healthy,90.33000183105467,No Action Required
+2026-07-09 21:54:05,Healthy,46.59999847412109,No Action Required
+2026-07-09 21:54:05,Healthy,95.1999969482422,No Action Required
+2026-07-09 21:54:05,Healthy,98.0199966430664,No Action Required
+2026-07-09 21:54:05,Healthy,87.19000244140625,No Action Required
+2026-07-09 21:54:05,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 21:54:05,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 22:21:40,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 22:21:40,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 22:21:40,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:21:40,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:21:40,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 22:21:40,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:21:40,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 22:21:40,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 22:21:40,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 22:21:40,Healthy,57.84999847412109,No Action Required
+2026-07-09 22:21:40,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 22:21:40,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 22:21:40,Healthy,64.4800033569336,No Action Required
+2026-07-09 22:21:40,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 22:21:40,Healthy,94.56999969482422,No Action Required
+2026-07-09 22:21:40,Healthy,88.62999725341797,No Action Required
+2026-07-09 22:21:40,Healthy,89.9000015258789,No Action Required
+2026-07-09 22:21:40,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 22:21:40,Healthy,90.7300033569336,No Action Required
+2026-07-09 22:21:40,Healthy,96.66999816894533,No Action Required
+2026-07-09 22:21:40,Healthy,57.59999847412109,No Action Required
+2026-07-09 22:21:40,Healthy,91.37000274658205,No Action Required
+2026-07-09 22:21:40,Healthy,96.23999786376952,No Action Required
+2026-07-09 22:21:40,Healthy,83.61000061035156,No Action Required
+2026-07-09 22:21:40,Healthy,98.25,No Action Required
+2026-07-09 22:21:40,Healthy,90.33000183105467,No Action Required
+2026-07-09 22:21:40,Healthy,46.59999847412109,No Action Required
+2026-07-09 22:21:40,Healthy,95.1999969482422,No Action Required
+2026-07-09 22:21:40,Healthy,98.0199966430664,No Action Required
+2026-07-09 22:21:40,Healthy,87.19000244140625,No Action Required
+2026-07-09 22:21:40,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 22:21:40,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 22:22:13,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 22:22:13,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 22:22:13,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:22:13,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:22:13,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 22:22:13,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:22:13,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 22:22:13,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 22:22:13,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 22:22:13,Healthy,57.84999847412109,No Action Required
+2026-07-09 22:22:13,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 22:22:13,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 22:22:13,Healthy,64.4800033569336,No Action Required
+2026-07-09 22:22:13,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 22:22:13,Healthy,94.56999969482422,No Action Required
+2026-07-09 22:22:13,Healthy,88.62999725341797,No Action Required
+2026-07-09 22:22:13,Healthy,89.9000015258789,No Action Required
+2026-07-09 22:22:13,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 22:22:13,Healthy,90.7300033569336,No Action Required
+2026-07-09 22:22:13,Healthy,96.66999816894533,No Action Required
+2026-07-09 22:22:13,Healthy,57.59999847412109,No Action Required
+2026-07-09 22:22:13,Healthy,91.37000274658205,No Action Required
+2026-07-09 22:22:13,Healthy,96.23999786376952,No Action Required
+2026-07-09 22:22:13,Healthy,83.61000061035156,No Action Required
+2026-07-09 22:22:13,Healthy,98.25,No Action Required
+2026-07-09 22:22:13,Healthy,90.33000183105467,No Action Required
+2026-07-09 22:22:13,Healthy,46.59999847412109,No Action Required
+2026-07-09 22:22:13,Healthy,95.1999969482422,No Action Required
+2026-07-09 22:22:13,Healthy,98.0199966430664,No Action Required
+2026-07-09 22:22:13,Healthy,87.19000244140625,No Action Required
+2026-07-09 22:22:13,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 22:22:13,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 22:34:59,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 22:34:59,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 22:34:59,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:34:59,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:34:59,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 22:34:59,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:34:59,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 22:34:59,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 22:34:59,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 22:34:59,Healthy,57.84999847412109,No Action Required
+2026-07-09 22:34:59,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 22:34:59,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 22:34:59,Healthy,64.4800033569336,No Action Required
+2026-07-09 22:34:59,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 22:34:59,Healthy,94.56999969482422,No Action Required
+2026-07-09 22:34:59,Healthy,88.62999725341797,No Action Required
+2026-07-09 22:34:59,Healthy,89.9000015258789,No Action Required
+2026-07-09 22:34:59,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 22:34:59,Healthy,90.7300033569336,No Action Required
+2026-07-09 22:34:59,Healthy,96.66999816894533,No Action Required
+2026-07-09 22:34:59,Healthy,57.59999847412109,No Action Required
+2026-07-09 22:34:59,Healthy,91.37000274658205,No Action Required
+2026-07-09 22:34:59,Healthy,96.23999786376952,No Action Required
+2026-07-09 22:34:59,Healthy,83.61000061035156,No Action Required
+2026-07-09 22:34:59,Healthy,98.25,No Action Required
+2026-07-09 22:34:59,Healthy,90.33000183105467,No Action Required
+2026-07-09 22:34:59,Healthy,46.59999847412109,No Action Required
+2026-07-09 22:34:59,Healthy,95.1999969482422,No Action Required
+2026-07-09 22:34:59,Healthy,98.0199966430664,No Action Required
+2026-07-09 22:34:59,Healthy,87.19000244140625,No Action Required
+2026-07-09 22:34:59,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 22:34:59,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 22:35:08,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 22:35:08,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 22:35:08,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:35:08,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:35:08,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 22:35:08,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:35:08,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 22:35:08,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 22:35:08,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 22:35:08,Healthy,57.84999847412109,No Action Required
+2026-07-09 22:35:08,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 22:35:08,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 22:35:08,Healthy,64.4800033569336,No Action Required
+2026-07-09 22:35:08,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 22:35:08,Healthy,94.56999969482422,No Action Required
+2026-07-09 22:35:08,Healthy,88.62999725341797,No Action Required
+2026-07-09 22:35:08,Healthy,89.9000015258789,No Action Required
+2026-07-09 22:35:08,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 22:35:08,Healthy,90.7300033569336,No Action Required
+2026-07-09 22:35:08,Healthy,96.66999816894533,No Action Required
+2026-07-09 22:35:08,Healthy,57.59999847412109,No Action Required
+2026-07-09 22:35:08,Healthy,91.37000274658205,No Action Required
+2026-07-09 22:35:08,Healthy,96.23999786376952,No Action Required
+2026-07-09 22:35:08,Healthy,83.61000061035156,No Action Required
+2026-07-09 22:35:08,Healthy,98.25,No Action Required
+2026-07-09 22:35:08,Healthy,90.33000183105467,No Action Required
+2026-07-09 22:35:08,Healthy,46.59999847412109,No Action Required
+2026-07-09 22:35:08,Healthy,95.1999969482422,No Action Required
+2026-07-09 22:35:08,Healthy,98.0199966430664,No Action Required
+2026-07-09 22:35:08,Healthy,87.19000244140625,No Action Required
+2026-07-09 22:35:08,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 22:35:08,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 22:47:36,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 22:47:36,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 22:47:36,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:47:36,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:47:36,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 22:47:36,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:47:36,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 22:47:36,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 22:47:36,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 22:47:36,Healthy,57.84999847412109,No Action Required
+2026-07-09 22:47:36,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 22:47:36,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 22:47:36,Healthy,64.4800033569336,No Action Required
+2026-07-09 22:47:36,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 22:47:36,Healthy,94.56999969482422,No Action Required
+2026-07-09 22:47:36,Healthy,88.62999725341797,No Action Required
+2026-07-09 22:47:36,Healthy,89.9000015258789,No Action Required
+2026-07-09 22:47:36,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 22:47:36,Healthy,90.7300033569336,No Action Required
+2026-07-09 22:47:36,Healthy,96.66999816894533,No Action Required
+2026-07-09 22:47:36,Healthy,57.59999847412109,No Action Required
+2026-07-09 22:47:36,Healthy,91.37000274658205,No Action Required
+2026-07-09 22:47:36,Healthy,96.23999786376952,No Action Required
+2026-07-09 22:47:36,Healthy,83.61000061035156,No Action Required
+2026-07-09 22:47:36,Healthy,98.25,No Action Required
+2026-07-09 22:47:36,Healthy,90.33000183105467,No Action Required
+2026-07-09 22:47:36,Healthy,46.59999847412109,No Action Required
+2026-07-09 22:47:36,Healthy,95.1999969482422,No Action Required
+2026-07-09 22:47:36,Healthy,98.0199966430664,No Action Required
+2026-07-09 22:47:36,Healthy,87.19000244140625,No Action Required
+2026-07-09 22:47:36,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 22:47:36,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-09 22:48:51,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-09 22:48:51,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-09 22:48:51,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,97.75,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:48:51,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-09 22:48:51,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-09 22:48:51,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-09 22:48:51,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-09 22:48:51,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-09 22:48:51,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-09 22:48:51,Healthy,57.84999847412109,No Action Required
+2026-07-09 22:48:51,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-09 22:48:51,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-09 22:48:51,Healthy,64.4800033569336,No Action Required
+2026-07-09 22:48:51,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-09 22:48:51,Healthy,94.56999969482422,No Action Required
+2026-07-09 22:48:51,Healthy,88.62999725341797,No Action Required
+2026-07-09 22:48:51,Healthy,89.9000015258789,No Action Required
+2026-07-09 22:48:51,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-09 22:48:51,Healthy,90.7300033569336,No Action Required
+2026-07-09 22:48:51,Healthy,96.66999816894533,No Action Required
+2026-07-09 22:48:51,Healthy,57.59999847412109,No Action Required
+2026-07-09 22:48:51,Healthy,91.37000274658205,No Action Required
+2026-07-09 22:48:51,Healthy,96.23999786376952,No Action Required
+2026-07-09 22:48:51,Healthy,83.61000061035156,No Action Required
+2026-07-09 22:48:51,Healthy,98.25,No Action Required
+2026-07-09 22:48:51,Healthy,90.33000183105467,No Action Required
+2026-07-09 22:48:51,Healthy,46.59999847412109,No Action Required
+2026-07-09 22:48:51,Healthy,95.1999969482422,No Action Required
+2026-07-09 22:48:51,Healthy,98.0199966430664,No Action Required
+2026-07-09 22:48:51,Healthy,87.19000244140625,No Action Required
+2026-07-09 22:48:51,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-09 22:48:51,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 00:42:20,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 00:42:20,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 00:42:20,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:20,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:20,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 00:42:20,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:20,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 00:42:20,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:20,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 00:42:20,Healthy,57.84999847412109,No Action Required
+2026-07-10 00:42:20,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 00:42:20,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 00:42:20,Healthy,64.4800033569336,No Action Required
+2026-07-10 00:42:20,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 00:42:20,Healthy,94.56999969482422,No Action Required
+2026-07-10 00:42:20,Healthy,88.62999725341797,No Action Required
+2026-07-10 00:42:20,Healthy,89.9000015258789,No Action Required
+2026-07-10 00:42:20,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 00:42:20,Healthy,90.7300033569336,No Action Required
+2026-07-10 00:42:20,Healthy,96.66999816894533,No Action Required
+2026-07-10 00:42:20,Healthy,57.59999847412109,No Action Required
+2026-07-10 00:42:20,Healthy,91.37000274658205,No Action Required
+2026-07-10 00:42:20,Healthy,96.23999786376952,No Action Required
+2026-07-10 00:42:20,Healthy,83.61000061035156,No Action Required
+2026-07-10 00:42:20,Healthy,98.25,No Action Required
+2026-07-10 00:42:20,Healthy,90.33000183105467,No Action Required
+2026-07-10 00:42:20,Healthy,46.59999847412109,No Action Required
+2026-07-10 00:42:20,Healthy,95.1999969482422,No Action Required
+2026-07-10 00:42:20,Healthy,98.0199966430664,No Action Required
+2026-07-10 00:42:20,Healthy,87.19000244140625,No Action Required
+2026-07-10 00:42:20,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 00:42:20,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 00:42:28,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 00:42:28,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 00:42:28,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:28,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:42:28,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 00:42:28,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:42:28,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 00:42:28,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 00:42:28,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 00:42:28,Healthy,57.84999847412109,No Action Required
+2026-07-10 00:42:28,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 00:42:28,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 00:42:28,Healthy,64.4800033569336,No Action Required
+2026-07-10 00:42:28,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 00:42:28,Healthy,94.56999969482422,No Action Required
+2026-07-10 00:42:28,Healthy,88.62999725341797,No Action Required
+2026-07-10 00:42:28,Healthy,89.9000015258789,No Action Required
+2026-07-10 00:42:28,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 00:42:28,Healthy,90.7300033569336,No Action Required
+2026-07-10 00:42:28,Healthy,96.66999816894533,No Action Required
+2026-07-10 00:42:28,Healthy,57.59999847412109,No Action Required
+2026-07-10 00:42:28,Healthy,91.37000274658205,No Action Required
+2026-07-10 00:42:28,Healthy,96.23999786376952,No Action Required
+2026-07-10 00:42:28,Healthy,83.61000061035156,No Action Required
+2026-07-10 00:42:28,Healthy,98.25,No Action Required
+2026-07-10 00:42:28,Healthy,90.33000183105467,No Action Required
+2026-07-10 00:42:28,Healthy,46.59999847412109,No Action Required
+2026-07-10 00:42:28,Healthy,95.1999969482422,No Action Required
+2026-07-10 00:42:28,Healthy,98.0199966430664,No Action Required
+2026-07-10 00:42:28,Healthy,87.19000244140625,No Action Required
+2026-07-10 00:42:28,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 00:42:28,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 00:44:06,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 00:44:06,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 00:44:06,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:44:06,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:44:06,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 00:44:06,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:44:06,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 00:44:06,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 00:44:06,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 00:44:06,Healthy,57.84999847412109,No Action Required
+2026-07-10 00:44:06,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 00:44:06,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 00:44:06,Healthy,64.4800033569336,No Action Required
+2026-07-10 00:44:06,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 00:44:06,Healthy,94.56999969482422,No Action Required
+2026-07-10 00:44:06,Healthy,88.62999725341797,No Action Required
+2026-07-10 00:44:06,Healthy,89.9000015258789,No Action Required
+2026-07-10 00:44:06,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 00:44:06,Healthy,90.7300033569336,No Action Required
+2026-07-10 00:44:06,Healthy,96.66999816894533,No Action Required
+2026-07-10 00:44:06,Healthy,57.59999847412109,No Action Required
+2026-07-10 00:44:06,Healthy,91.37000274658205,No Action Required
+2026-07-10 00:44:06,Healthy,96.23999786376952,No Action Required
+2026-07-10 00:44:06,Healthy,83.61000061035156,No Action Required
+2026-07-10 00:44:06,Healthy,98.25,No Action Required
+2026-07-10 00:44:06,Healthy,90.33000183105467,No Action Required
+2026-07-10 00:44:06,Healthy,46.59999847412109,No Action Required
+2026-07-10 00:44:06,Healthy,95.1999969482422,No Action Required
+2026-07-10 00:44:06,Healthy,98.0199966430664,No Action Required
+2026-07-10 00:44:06,Healthy,87.19000244140625,No Action Required
+2026-07-10 00:44:06,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 00:44:06,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 00:54:37,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 00:54:37,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 00:54:37,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:54:37,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:54:37,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 00:54:37,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:54:37,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 00:54:37,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 00:54:37,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 00:54:37,Healthy,57.84999847412109,No Action Required
+2026-07-10 00:54:37,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 00:54:37,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 00:54:37,Healthy,64.4800033569336,No Action Required
+2026-07-10 00:54:37,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 00:54:37,Healthy,94.56999969482422,No Action Required
+2026-07-10 00:54:37,Healthy,88.62999725341797,No Action Required
+2026-07-10 00:54:37,Healthy,89.9000015258789,No Action Required
+2026-07-10 00:54:37,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 00:54:37,Healthy,90.7300033569336,No Action Required
+2026-07-10 00:54:37,Healthy,96.66999816894533,No Action Required
+2026-07-10 00:54:37,Healthy,57.59999847412109,No Action Required
+2026-07-10 00:54:37,Healthy,91.37000274658205,No Action Required
+2026-07-10 00:54:37,Healthy,96.23999786376952,No Action Required
+2026-07-10 00:54:37,Healthy,83.61000061035156,No Action Required
+2026-07-10 00:54:37,Healthy,98.25,No Action Required
+2026-07-10 00:54:37,Healthy,90.33000183105467,No Action Required
+2026-07-10 00:54:37,Healthy,46.59999847412109,No Action Required
+2026-07-10 00:54:37,Healthy,95.1999969482422,No Action Required
+2026-07-10 00:54:37,Healthy,98.0199966430664,No Action Required
+2026-07-10 00:54:37,Healthy,87.19000244140625,No Action Required
+2026-07-10 00:54:37,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 00:54:37,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 00:55:03,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 00:55:03,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 00:55:03,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:55:03,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:55:03,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 00:55:03,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:55:03,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 00:55:03,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 00:55:03,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 00:55:03,Healthy,57.84999847412109,No Action Required
+2026-07-10 00:55:03,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 00:55:03,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 00:55:03,Healthy,64.4800033569336,No Action Required
+2026-07-10 00:55:03,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 00:55:03,Healthy,94.56999969482422,No Action Required
+2026-07-10 00:55:03,Healthy,88.62999725341797,No Action Required
+2026-07-10 00:55:03,Healthy,89.9000015258789,No Action Required
+2026-07-10 00:55:03,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 00:55:03,Healthy,90.7300033569336,No Action Required
+2026-07-10 00:55:03,Healthy,96.66999816894533,No Action Required
+2026-07-10 00:55:03,Healthy,57.59999847412109,No Action Required
+2026-07-10 00:55:03,Healthy,91.37000274658205,No Action Required
+2026-07-10 00:55:03,Healthy,96.23999786376952,No Action Required
+2026-07-10 00:55:03,Healthy,83.61000061035156,No Action Required
+2026-07-10 00:55:03,Healthy,98.25,No Action Required
+2026-07-10 00:55:03,Healthy,90.33000183105467,No Action Required
+2026-07-10 00:55:03,Healthy,46.59999847412109,No Action Required
+2026-07-10 00:55:03,Healthy,95.1999969482422,No Action Required
+2026-07-10 00:55:03,Healthy,98.0199966430664,No Action Required
+2026-07-10 00:55:03,Healthy,87.19000244140625,No Action Required
+2026-07-10 00:55:03,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 00:55:03,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 00:56:28,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 00:56:28,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 00:56:28,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:56:28,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 00:56:28,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 00:56:28,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 00:56:28,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 00:56:28,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 00:56:28,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 00:56:28,Healthy,57.84999847412109,No Action Required
+2026-07-10 00:56:28,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 00:56:28,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 00:56:28,Healthy,64.4800033569336,No Action Required
+2026-07-10 00:56:28,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 00:56:28,Healthy,94.56999969482422,No Action Required
+2026-07-10 00:56:28,Healthy,88.62999725341797,No Action Required
+2026-07-10 00:56:28,Healthy,89.9000015258789,No Action Required
+2026-07-10 00:56:28,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 00:56:28,Healthy,90.7300033569336,No Action Required
+2026-07-10 00:56:28,Healthy,96.66999816894533,No Action Required
+2026-07-10 00:56:28,Healthy,57.59999847412109,No Action Required
+2026-07-10 00:56:28,Healthy,91.37000274658205,No Action Required
+2026-07-10 00:56:28,Healthy,96.23999786376952,No Action Required
+2026-07-10 00:56:28,Healthy,83.61000061035156,No Action Required
+2026-07-10 00:56:28,Healthy,98.25,No Action Required
+2026-07-10 00:56:28,Healthy,90.33000183105467,No Action Required
+2026-07-10 00:56:28,Healthy,46.59999847412109,No Action Required
+2026-07-10 00:56:28,Healthy,95.1999969482422,No Action Required
+2026-07-10 00:56:28,Healthy,98.0199966430664,No Action Required
+2026-07-10 00:56:28,Healthy,87.19000244140625,No Action Required
+2026-07-10 00:56:28,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 00:56:28,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 01:01:09,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,95.69000244140624,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.5500030517578,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.3000030517578,Maintenance Within 7 Days
+2026-07-10 01:01:09,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 01:01:09,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,94.66999816894533,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.08000183105467,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,90.58000183105467,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.98999786376952,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.33000183105467,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.55999755859376,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.58000183105467,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.33000183105467,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.12999725341795,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.1999969482422,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.4499969482422,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,91.80999755859376,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,99.55999755859376,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 01:01:09,Critical,92.08000183105467,Maintenance Within 7 Days
+2026-07-10 01:01:09,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 01:01:09,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 01:01:09,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 01:01:09,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 01:01:09,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,93.26000213623048,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,90.3000030517578,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 01:01:09,Healthy,57.84999847412109,No Action Required
+2026-07-10 01:01:09,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 01:01:09,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 01:01:09,Healthy,64.4800033569336,No Action Required
+2026-07-10 01:01:09,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 01:01:09,Healthy,94.56999969482422,No Action Required
+2026-07-10 01:01:09,Healthy,88.62999725341797,No Action Required
+2026-07-10 01:01:09,Healthy,89.9000015258789,No Action Required
+2026-07-10 01:01:09,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 01:01:09,Healthy,90.7300033569336,No Action Required
+2026-07-10 01:01:09,Healthy,96.66999816894533,No Action Required
+2026-07-10 01:01:09,Healthy,57.59999847412109,No Action Required
+2026-07-10 01:01:09,Healthy,91.37000274658205,No Action Required
+2026-07-10 01:01:09,Healthy,96.23999786376952,No Action Required
+2026-07-10 01:01:09,Healthy,83.61000061035156,No Action Required
+2026-07-10 01:01:09,Healthy,98.25,No Action Required
+2026-07-10 01:01:09,Healthy,90.33000183105467,No Action Required
+2026-07-10 01:01:09,Healthy,46.59999847412109,No Action Required
+2026-07-10 01:01:09,Healthy,95.1999969482422,No Action Required
+2026-07-10 01:01:09,Healthy,98.0199966430664,No Action Required
+2026-07-10 01:01:09,Healthy,87.19000244140625,No Action Required
+2026-07-10 01:01:09,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 01:01:09,Imminent_Failure,93.20999908447266,Immediate Shutdown
+2026-07-10 01:02:16,Critical,93.5199966430664,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,95.69000244140625,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.55000305175781,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.2300033569336,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,97.54000091552734,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.30000305175781,Maintenance Within 7 Days
+2026-07-10 01:02:16,Early_Degradation,57.959999084472656,Schedule Inspection
+2026-07-10 01:02:16,Critical,99.61000061035156,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,84.16999816894531,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,94.66999816894531,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,97.63999938964844,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,94.13999938964844,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,85.87999725341797,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.91000366210938,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.08000183105469,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,90.58000183105469,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.98999786376953,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,83.87000274658203,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.0999984741211,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.33000183105469,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.55999755859375,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.54000091552734,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,92.08999633789062,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,92.52999877929688,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.0199966430664,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.7699966430664,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.83999633789062,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,87.43000030517578,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,97.70999908447266,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,97.75,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.58000183105469,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,97.91000366210938,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.04000091552734,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.33000183105469,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.12999725341797,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.83999633789062,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.19999694824219,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,54.06999969482422,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,98.2300033569336,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.44999694824219,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,96.70999908447266,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,91.80999755859375,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,99.55999755859375,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,94.33999633789062,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,82.77999877929688,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,89.26000213623047,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,97.81999969482422,Maintenance Within 7 Days
+2026-07-10 01:02:16,Critical,92.08000183105469,Maintenance Within 7 Days
+2026-07-10 01:02:16,Early_Degradation,93.29000091552734,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,88.31999969482422,Schedule Inspection
+2026-07-10 01:02:16,Critical,98.81999969482422,Maintenance Within 7 Days
+2026-07-10 01:02:16,Early_Degradation,92.68000030517578,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,93.68000030517578,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,91.7300033569336,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,80.37000274658203,Schedule Inspection
+2026-07-10 01:02:16,Critical,95.95999908447266,Maintenance Within 7 Days
+2026-07-10 01:02:16,Early_Degradation,84.16999816894531,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,81.5999984741211,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,93.26000213623047,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,79.94999694824219,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,82.36000061035156,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,79.68000030517578,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,85.66000366210938,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,80.45999908447266,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,96.08999633789062,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,90.30000305175781,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,84.7699966430664,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,95.95999908447266,Schedule Inspection
+2026-07-10 01:02:16,Healthy,57.849998474121094,No Action Required
+2026-07-10 01:02:16,Early_Degradation,73.66999816894531,Schedule Inspection
+2026-07-10 01:02:16,Early_Degradation,85.27999877929688,Schedule Inspection
+2026-07-10 01:02:16,Healthy,64.4800033569336,No Action Required
+2026-07-10 01:02:16,Early_Degradation,91.5199966430664,Schedule Inspection
+2026-07-10 01:02:16,Healthy,94.56999969482422,No Action Required
+2026-07-10 01:02:16,Healthy,88.62999725341797,No Action Required
+2026-07-10 01:02:16,Healthy,89.9000015258789,No Action Required
+2026-07-10 01:02:16,Early_Degradation,92.31999969482422,Schedule Inspection
+2026-07-10 01:02:16,Healthy,90.7300033569336,No Action Required
+2026-07-10 01:02:16,Healthy,96.66999816894531,No Action Required
+2026-07-10 01:02:16,Healthy,57.599998474121094,No Action Required
+2026-07-10 01:02:16,Healthy,91.37000274658203,No Action Required
+2026-07-10 01:02:16,Healthy,96.23999786376953,No Action Required
+2026-07-10 01:02:16,Healthy,83.61000061035156,No Action Required
+2026-07-10 01:02:16,Healthy,98.25,No Action Required
+2026-07-10 01:02:16,Healthy,90.33000183105469,No Action Required
+2026-07-10 01:02:16,Healthy,46.599998474121094,No Action Required
+2026-07-10 01:02:16,Healthy,95.19999694824219,No Action Required
+2026-07-10 01:02:16,Healthy,98.0199966430664,No Action Required
+2026-07-10 01:02:16,Healthy,87.19000244140625,No Action Required
+2026-07-10 01:02:16,Imminent_Failure,84.08999633789062,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,89.7699966430664,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,94.0199966430664,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,85.73999786376953,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,84.7699966430664,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,89.5999984741211,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,84.61000061035156,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,90.25,Immediate Shutdown
+2026-07-10 01:02:16,Imminent_Failure,93.20999908447266,Immediate Shutdown
