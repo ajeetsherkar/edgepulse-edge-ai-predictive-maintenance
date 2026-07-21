@@ -1,11 +1,38 @@
+import sys
+from pathlib import Path
+
+# Add project root to Python path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+
 import streamlit as st
 import pandas as pd
 import joblib
 from pathlib import Path
+from utils.constants import *
+from utils.charts import (
+    create_health_chart,
+    create_feature_importance_chart,
+    create_confidence_chart,
+    create_maintenance_chart,
+)
+from utils.helpers import (
+    get_health_summary,
+    get_average_confidence,
+    get_prediction_count,
+    get_current_timestamp,
+    format_prediction_labels,
+    get_alert_level,
+    get_top_critical,
+    get_health_counts,
+)
+from reports.executive_report import generate_executive_report
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 import time
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "xgb_baseline.pkl"
@@ -24,10 +51,14 @@ STATUS_COLORS = {
     "Imminent_Failure": "#DC2626"
 }
 
+# NOTE: keys here must stay in sync with the *values* produced by
+# maintenance_map below. If you rename a maintenance_map value, update
+# the matching key here too, or the maintenance chart will fail to
+# find a color for that category.
 MAINTENANCE_COLORS = {
-    "No Action Required": "#16A34A",
+    "Monitor": "#16A34A",
     "Schedule Inspection": "#EAB308",
-    "Maintenance Within 7 Days": "#F97316",
+    "Maintain Within 7 Days": "#F97316",
     "Immediate Shutdown": "#DC2626"
 }
 
@@ -36,6 +67,16 @@ MAINTENANCE_COLORS = {
 STATUS_COLORS = {
     **STATUS_COLORS,
     **{k.replace("_", " "): v for k, v in STATUS_COLORS.items()}
+}
+
+# Maps the "color" returned by get_alert_level() to the right Streamlit
+# banner function, so the fleet alert banner can be driven entirely by
+# the shared helper instead of a local if/elif chain.
+ALERT_RENDER_MAP = {
+    "red": st.error,
+    "orange": st.warning,
+    "gold": st.warning,
+    "green": st.success,
 }
 
 model = joblib.load(MODEL_PATH)
@@ -155,6 +196,13 @@ if uploaded_file is not None:
 
         st.success("✅ Prediction completed successfully.")
 
+        # NOTE: these are the canonical/internal labels. They are kept
+        # underscored ("Early_Degradation", "Imminent_Failure") because
+        # they're used as dict keys throughout the rest of the app
+        # (maintenance_map, card_colors, icons, multiselect options,
+        # stage_order, get_health_summary/get_health_counts). Display-only
+        # formatting (spaces instead of underscores) happens at render
+        # time via format_prediction_labels() / .replace("_", " ").
         label_map = {
             0: "Healthy",
             1: "Early_Degradation",
@@ -167,10 +215,14 @@ if uploaded_file is not None:
             for p in predictions
         ]
 
+        # Maintenance action wording aligned with the report's expected
+        # terminology (Monitor / Schedule Inspection / Maintain Within 7
+        # Days / Immediate Shutdown). Keep MAINTENANCE_COLORS above in
+        # sync with these values.
         maintenance_map = {
-            "Healthy": "No Action Required",
+            "Healthy": "Monitor",
             "Early_Degradation": "Schedule Inspection",
-            "Critical": "Maintenance Within 7 Days",
+            "Critical": "Maintain Within 7 Days",
             "Imminent_Failure": "Immediate Shutdown"
         }
 
@@ -189,6 +241,10 @@ if uploaded_file is not None:
         st.session_state["prediction_time"] = prediction_time
         st.session_state["feature_count"] = len(feature_columns)
         st.session_state["last_prediction_timestamp"] = datetime.now()
+
+        # A fresh prediction run invalidates any previously generated
+        # report, so clear it out to avoid downloading a stale PDF.
+        st.session_state.pop("executive_report_bytes", None)
 
         history_records = []
 
@@ -263,7 +319,7 @@ if uploaded_file is not None:
         st.divider()
         st.subheader("Prediction Summary")
 
-        summary = filtered_results["Prediction"].value_counts()
+        summary = get_health_summary(filtered_results)
 
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Healthy", summary.get("Healthy", 0))
@@ -332,65 +388,28 @@ Try one of the following:
 """
             )
         else:
-            def prediction_color(value):
-
-                colors = {
-                    "Healthy": "color: green; font-weight:bold;",
-                    "Early_Degradation": "color: goldenrod; font-weight:bold;",
-                    "Critical": "color: orange; font-weight:bold;",
-                    "Imminent_Failure": "color: red; font-weight:bold;"
-                }
-
-                return colors.get(value, "")
-
-            def confidence_color(value):
-
-                if value >= 90:
-                    return "color: green; font-weight:bold;"
-
-                elif value >= 75:
-                    return "color: goldenrod; font-weight:bold;"
-
-                else:
-                    return "color: red; font-weight:bold;"
-
             display_df = filtered_results.copy()
 
             display_df["Prediction"] = (
-                display_df["Prediction"]
-                .replace({
-                    "Healthy": "🟢 Healthy",
-                    "Early_Degradation": "🟡 Early Degradation",
-                    "Critical": "🟠 Critical",
-                    "Imminent_Failure": "🔴 Imminent Failure"
-                })
-            )
-
-            styled_df = (
-                filtered_results.style
-                .applymap(
-                    prediction_color,
-                    subset=["Prediction"]
-                )
-                .applymap(
-                    confidence_color,
-                    subset=["Confidence (%)"]
-                )
+                display_df["Prediction"].apply(format_prediction_labels)
             )
 
             st.dataframe(
-                styled_df,
-                use_container_width=True
+                display_df,
+                use_container_width=True,
+                hide_index=True
             )
 
-        total = len(filtered_results)
+        health_counts = get_health_counts(filtered_results)
 
-        healthy_count = (filtered_results["Prediction"] == "Healthy").sum()
-        early_count = (filtered_results["Prediction"] == "Early_Degradation").sum()
-        critical_count = (filtered_results["Prediction"] == "Critical").sum()
-        imminent_count = (filtered_results["Prediction"] == "Imminent_Failure").sum()
+        total = get_prediction_count(filtered_results)
 
-        avg_confidence = filtered_results["Confidence (%)"].mean()
+        healthy_count = health_counts["Healthy"]
+        early_count = health_counts["Early_Degradation"]
+        critical_count = health_counts["Critical"]
+        imminent_count = health_counts["Imminent_Failure"]
+
+        avg_confidence = get_average_confidence(filtered_results)
 
         report_accuracy = metrics_df.loc[
             metrics_df["Metric"] == "Accuracy",
@@ -399,57 +418,79 @@ Try one of the following:
 
         report_prediction_time = st.session_state.get("prediction_time", 0)
 
-        report = f"""
-EdgePulse AI Prediction Report
+        report_timestamp = get_current_timestamp()
+        report_date, report_time = report_timestamp.split("\n")
 
-==============================================
+        # -----------------------------------------------------------
+        # Executive PDF Report
+        # -----------------------------------------------------------
+        # NOTE: st.download_button can't lazily generate its payload —
+        # Streamlit renders the whole page (and evaluates every button)
+        # on every rerun, before it knows whether the download button
+        # itself was clicked. So we use a two-step pattern: a regular
+        # button triggers PDF generation, and only then do we render
+        # the download button with the freshly generated bytes.
+        st.divider()
+        st.subheader("📄 Executive Report")
 
-Generated On:
-{datetime.now().strftime("%d %B %Y")}
-Time:
-{datetime.now().strftime("%H:%M:%S")}
+        model_info = {
+            "Model": "EdgePulse",
+            "Algorithm": "XGBoost",
+            "Dataset": "NASA IMS Bearing Dataset",
+            "Version": "v1.0",
+            "Model Type": "Multi-Class Classification",
+            "Target Classes": 4,
+            "Accuracy": f"{report_accuracy * 100:.1f}%"
+        }
 
-----------------------------------------------
-MODEL INFORMATION
-----------------------------------------------
+        # The report always represents the FULL uploaded/predicted
+        # dataset, not whatever the user currently has filtered on the
+        # dashboard — otherwise "Generate Executive Report" while
+        # filtered to e.g. only Critical machines would silently
+        # produce an incomplete report.
+        results_df = st.session_state.get("prediction_df")
 
-Algorithm          : XGBoost
-Dataset            : NASA IMS Bearing Dataset
-Model Accuracy     : {report_accuracy*100:.1f}%
-Prediction Time    : {report_prediction_time:.2f} sec
+        if results_df is None or results_df.empty:
+            st.warning("Please upload data and generate predictions first.")
+            st.stop()
 
-----------------------------------------------
-PREDICTION SUMMARY
-----------------------------------------------
+        results_df = results_df.copy()
 
-Total Machines          : {total}
+        report_exists = "executive_report_bytes" in st.session_state
 
-Healthy                 : {healthy_count}
-Early Degradation       : {early_count}
-Critical                : {critical_count}
-Imminent Failure        : {imminent_count}
-
-Average Confidence      : {avg_confidence:.2f}%
-
-==============================================
-
-Generated by EdgePulse
-
-==============================================
-"""
-
-        report += "\n\nDETAILED PREDICTIONS\n\n"
-
-        report += filtered_results.to_csv(index=False)
-
-        st.download_button(
-            "📥 Download Prediction Report",
-            report,
-            file_name="EdgePulse_Prediction_Report.txt",
-            mime="text/plain",
-            disabled=filtered_results.empty,
-            use_container_width=True
+        generate_report_clicked = st.button(
+            "📄 Generate Executive Report",
+            use_container_width=True,
+            disabled=results_df.empty or report_exists
         )
+
+        if generate_report_clicked:
+            output_pdf = Path("reports") / "EdgePulse_Executive_Report.pdf"
+
+            with st.spinner("Generating Executive Report..."):
+                pdf_path = generate_executive_report(
+                    output_path=str(output_pdf),
+                    model_info=model_info,
+                    results_df=results_df,
+                )
+
+                with open(pdf_path, "rb") as pdf_file:
+                    pdf_bytes = pdf_file.read()
+
+            st.session_state["executive_report_bytes"] = pdf_bytes
+            st.success(
+                "✅ Executive Report generated successfully. Click the button below to download."
+            )
+
+        if "executive_report_bytes" in st.session_state:
+            st.download_button(
+                "📥 Download Prediction Report",
+                data=st.session_state["executive_report_bytes"],
+                file_name="EdgePulse_Executive_Report.pdf",
+                mime="application/pdf",
+                disabled=results_df.empty,
+                use_container_width=True
+            )
 
         st.info(f"""
 Model : XGBoost
@@ -510,17 +551,14 @@ margin-bottom:15px;
         st.divider()
         st.subheader("📈 Confidence Distribution")
 
-        confidence_fig = px.histogram(
-            filtered_results,
-            x="Confidence (%)",
-            nbins=10,
-            title="Prediction Confidence Distribution"
-        )
+        confidence_fig = create_confidence_chart(filtered_results)
 
-        confidence_fig.update_layout(
-            height=450,
-            xaxis_title="Confidence (%)",
-            yaxis_title="Number of Machines"
+        confidence_chart_path = "reports/charts/confidence_distribution.png"
+
+        confidence_fig.write_image(
+            confidence_chart_path,
+            width=1200,
+            height=700
         )
 
         st.plotly_chart(
@@ -544,19 +582,22 @@ margin-bottom:15px;
             "Count"
         ]
 
-        maintenance_fig = px.pie(
-            maintenance_summary,
-            names="Maintenance",
-            values="Count",
-            hole=0.55,
-            title="Maintenance Action Distribution",
-            color="Maintenance",
-            color_discrete_map=MAINTENANCE_COLORS
-        )
+        st.subheader("🐞 Debug Maintenance Data")
 
-        maintenance_fig.update_layout(
-            height=450,
-            legend_title="Maintenance Action"
+        st.write("Maintenance Summary:")
+        st.write(maintenance_summary)
+
+        st.write("Unique Maintenance Values:")
+        st.write(filtered_results["Maintenance"].unique())
+
+        maintenance_fig = create_maintenance_chart(maintenance_summary)
+
+        maintenance_chart_path = "reports/charts/maintenance_distribution.png"
+
+        maintenance_fig.write_image(
+            maintenance_chart_path,
+            width=1200,
+            height=700
         )
 
         st.plotly_chart(
@@ -594,23 +635,20 @@ margin-bottom:15px;
             for stage, color in STATUS_COLORS.items()
         }
 
-        fig = px.bar(
-            health_distribution,
-            x="Health Stage",
-            y="Count",
-            color="Health Stage",
-            color_discrete_map=display_stage_colors,
-            text="Count",
-            title="Bearing Health Stages (Filtered Predictions)"
+        health_fig = create_health_chart(health_distribution, display_stage_colors)
+
+        os.makedirs("reports/charts", exist_ok=True)
+
+        health_chart_path = "reports/charts/health_distribution.png"
+
+        health_fig.write_image(
+            health_chart_path,
+            width=1200,
+            height=700
         )
 
-        fig.update_layout(
-            height=450,
-            xaxis_title="Health Stage",
-            yaxis_title="Number of Machines"
-        )
         st.plotly_chart(
-            fig,
+            health_fig,
             use_container_width=True,
             config={
                 "displayModeBar": False
@@ -626,16 +664,14 @@ margin-bottom:15px;
 prediction_available = "prediction_df" in st.session_state
 
 if prediction_available:
-    fleet_summary = (
-        st.session_state["prediction_df"]["Prediction"]
-        .value_counts()
-    )
+    fleet_summary = get_health_summary(st.session_state["prediction_df"])
+    fleet_counts = get_health_counts(st.session_state["prediction_df"])
 
-    healthy = fleet_summary.get("Healthy", 0)
-    early = fleet_summary.get("Early_Degradation", 0)
-    critical = fleet_summary.get("Critical", 0)
-    failure = fleet_summary.get("Imminent_Failure", 0)
-    total_predictions = len(st.session_state["prediction_df"])
+    healthy = fleet_counts["Healthy"]
+    early = fleet_counts["Early_Degradation"]
+    critical = fleet_counts["Critical"]
+    failure = fleet_counts["Imminent_Failure"]
+    total_predictions = get_prediction_count(st.session_state["prediction_df"])
 else:
     healthy = 0
     early = 0
@@ -653,51 +689,16 @@ Upload a sensor CSV file and run AI prediction to view machine health insights.
 """
     )
 
-elif failure > 0:
-
-    st.error(
-        f"""
-🚨 **Critical Alert**
-
-**{failure} machine(s)** are predicted to be in the **Imminent Failure** stage.
-
-**Recommended Action:** Perform an immediate shutdown and inspect the affected machines to prevent catastrophic failure.
-"""
-    )
-
-elif critical > 0:
-
-    st.warning(
-        f"""
-🟠 **Maintenance Required**
-
-**{critical} machine(s)** are in the **Critical** stage.
-
-**Recommended Action:** Schedule maintenance within the next 7 days.
-"""
-    )
-
-elif early > 0:
-
-    st.warning(
-        f"""
-🟡 **Inspection Recommended**
-
-**{early} machine(s)** show early signs of degradation.
-
-**Recommended Action:** Inspect the machines and monitor them closely.
-"""
-    )
-
 else:
 
-    st.success(
-        """
-🟢 **System Status**
+    alert = get_alert_level(fleet_summary)
+    render_alert = ALERT_RENDER_MAP.get(alert["color"], st.info)
 
-All monitored machines are operating within normal conditions.
+    render_alert(
+        f"""
+{alert['icon']} **{alert['title']}**
 
-No maintenance action is currently required.
+{alert['message']}
 """
     )
 
@@ -711,7 +712,7 @@ if prediction_available:
         "Value"
     ].iloc[0]
 
-    prediction_count = len(st.session_state["prediction_df"])
+    prediction_count = get_prediction_count(st.session_state["prediction_df"])
 
     prediction_time = st.session_state.get("prediction_time", 0)
 
@@ -780,23 +781,18 @@ st.divider()
 st.subheader("📊 Feature Importance")
 
 if prediction_available:
-    fig = px.bar(
-        feature_df,
-        x="importance",
-        y="feature",
-        orientation="h",
-        color="importance",
-        text="importance",
-        title="XGBoost Feature Importance"
+    feature_fig = create_feature_importance_chart(feature_df)
+
+    feature_chart_path = "reports/charts/feature_importance.png"
+
+    feature_fig.write_image(
+        feature_chart_path,
+        width=1200,
+        height=700
     )
-    fig.update_layout(
-        height=450,
-        yaxis=dict(
-            categoryorder="total ascending"
-        )
-    )
+
     st.plotly_chart(
-        fig,
+        feature_fig,
         use_container_width=True,
         config={
             "displayModeBar": False
