@@ -258,9 +258,9 @@ streamlit run dashboard/app.py
 
 ---
 
-# 👨‍💻 Team
+# 👨‍💻 Author
 
-**Team Name:** EdgePulse
+**Author Name:** Ajeet Sherkar
 
 **Theme:** AI at the Edge
 
