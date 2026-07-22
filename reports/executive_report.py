@@ -1064,6 +1064,16 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
         topMargin=PAGE_TOP_MARGIN,
         bottomMargin=PAGE_BOTTOM_MARGIN,
     )
+
+    doc.title = "EdgePulse - Edge AI Predictive Maintenance System"
+    doc.author = "Ajeet Sherkar"
+    doc.subject = "Industrial Edge AI Predictive Maintenance"
+    doc.creator = "EdgePulse"
+    doc.keywords = (
+        "Edge AI, Predictive Maintenance, XGBoost, "
+        "Industrial AI, Rotating Machinery, Edge Computing"
+    )
+
     styles = build_styles()
 
     elements = []
@@ -1075,7 +1085,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     generated_time = datetime.now().strftime("%d %B %Y, %I:%M %p")
 
     title = Paragraph("EdgePulse", styles["ReportTitle"])
-    subtitle = Paragraph("Edge-AI Predictive Maintenance System", styles["Subtitle"])
+    subtitle = Paragraph("Edge AI Predictive Maintenance System", styles["Subtitle"])
     report_label = Paragraph("Executive Report", styles["ReportLabel"])
 
     divider = Table([[""]], colWidths=[6.5 * inch], rowHeights=[2])
@@ -1102,7 +1112,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     ]))
 
     tagline = Paragraph(
-        "AI-powered industrial health monitoring and predictive maintenance.",
+        "Edge AI-powered industrial health monitoring with local inference and predictive maintenance.",
         styles["Tagline"],
     )
 
@@ -1156,7 +1166,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     # they stand out to a reader scanning the summary without the
     # narrative reading like a wall of bold text.
     summary_text = (
-        f"The EdgePulse system analysed <b>{total_machines}</b> rotating machinery "
+        f"The EdgePulse Edge AI system analysed <b>{total_machines}</b> rotating machinery "
         f"samples using an XGBoost-based predictive maintenance model. The "
         f"model achieved an accuracy of <b>{accuracy_display}</b> with an average "
         f"prediction confidence of <b>{avg_confidence:.1f}%</b>. Based on the current "
@@ -1306,7 +1316,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     # Prediction Summary
     # ==========================
 
-    elements.append(Paragraph("Prediction Summary", styles["SectionHeading"]))
+    elements.append(Paragraph("Health Assessment Summary", styles["SectionHeading"]))
     elements.append(Spacer(1, SPACE_AFTER_HEADING))
 
     prediction_table_data = [["Health Stage", "Machine Count"]]
@@ -1320,7 +1330,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     # Maintenance Summary
     # ==========================
 
-    elements.append(Paragraph("Maintenance Summary", styles["SectionHeading"]))
+    elements.append(Paragraph("Maintenance Action Summary", styles["SectionHeading"]))
     elements.append(Spacer(1, SPACE_AFTER_HEADING))
 
     maintenance_table_data = [["Maintenance Action", "Machine Count"]]
@@ -1533,7 +1543,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     # already guarantees every class in results_df has an entry here, so
     # this loop can't silently skip a class that's actually present in
     # the data.
-    recommendation_data = [["Prediction", "Recommended Action", "Priority"]]
+    recommendation_data = [["Health Classification", "Recommended Action", "Priority"]]
 
     for prediction in HEALTH_STAGE_ORDER:
         action = RECOMMENDATION_MAPPING[prediction]
@@ -1579,7 +1589,7 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     # as the single risk classification shown here, rather than a second
     # "overall_status" label computed on different thresholds.
     conclusion_text = f"""
-    The EdgePulse predictive maintenance system analysed <b>{total_machines}</b>
+    The EdgePulse Edge AI predictive maintenance system analysed <b>{total_machines}</b>
     rotating machinery records using an XGBoost-based machine learning
     model.<br/><br/>
 
@@ -1658,10 +1668,11 @@ def _build_executive_report(output_path, model_info, results_df, chart_paths):
     # ==========================
 
     closing = (
-        "EdgePulse demonstrates how explainable AI and predictive analytics "
-        "can transform industrial maintenance by enabling proactive "
-        "decision-making, improving asset reliability, and reducing "
-        "operational costs."
+        "EdgePulse demonstrates how Edge AI and explainable machine learning "
+        "can transform industrial maintenance by enabling local inference, "
+        "reduced cloud dependency, and real-time industrial monitoring — "
+        "driving proactive decision-making, improved asset reliability, "
+        "and reduced operational costs."
     )
 
     elements.append(Paragraph(closing, styles["Body"]))
@@ -1697,7 +1708,7 @@ def add_footer(canvas, doc):
     canvas.drawString(
         left_edge,
         0.5 * inch,
-        "EdgePulse Predictive Maintenance System | Confidential",
+        "EdgePulse \u2022 Edge AI Predictive Maintenance System | Confidential",
     )
 
     canvas.drawRightString(
